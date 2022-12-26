@@ -3,6 +3,7 @@
  * @link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
  */
 import Backpack from "./Backpack.js";
+// import room from "./app.js";
 
 const everydayPack = new Backpack(
   "Everyday Backpack",

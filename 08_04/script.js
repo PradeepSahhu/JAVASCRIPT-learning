@@ -11,6 +11,7 @@ const greenPack = {
 };
 
 const addPack = (currentPack) => {
+  // function (currentPack) -- another way of writing function. Here, arrow declartion of function used.
   const newArticle = document.createElement("article");
   newArticle.innerHTML = `
     <h1>${currentPack.name}</h1>
@@ -22,6 +23,9 @@ const addPack = (currentPack) => {
   `;
   return newArticle;
 };
+
+const theArticle = addPack(greenPack);
+console.log(theArticle);
 
 const main = document.querySelector("main");
 main.append(addPack(greenPack));

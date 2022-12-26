@@ -1,4 +1,5 @@
 class Backpack {
+  // This is parameters
   constructor(
     name,
     volume,
@@ -10,6 +11,7 @@ class Backpack {
     dateAcquired,
     image
   ) {
+    //This is properties.
     this.name = name;
     this.volume = volume;
     this.color = color;
@@ -22,6 +24,7 @@ class Backpack {
     this.dateAcquired = dateAcquired;
     this.image = image;
   }
+  //This are methods.
   toggleLid(lidStatus) {
     this.lidOpen = lidStatus;
   }

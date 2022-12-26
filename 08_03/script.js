@@ -4,6 +4,7 @@
  */
 
 const greenPack = {
+  // js object.
   name: "Frog Pack",
   color: "green",
   volume: 8,

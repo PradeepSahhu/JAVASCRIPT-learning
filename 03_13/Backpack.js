@@ -1,5 +1,5 @@
 class Backpack {
-  constructor(
+  constructor( // class parameters
     name,
     volume,
     color,
@@ -9,6 +9,7 @@ class Backpack {
     lidOpen,
     dateAcquired
   ) {
+    // class properties.
     this.name = name;
     this.volume = volume;
     this.color = color;

@@ -26,6 +26,9 @@ const backpack = {
     this.strapLength.right = lengthRight;
     updateBackpack(`Strap lengths updated.`);
   },
+  // tryIt: function (statusof) {
+  //   this.toggleLid(statusof);
+  // },
 };
 
 const markup = (backpack) => {

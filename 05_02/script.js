@@ -19,6 +19,7 @@ const everydayPack = new Backpack(
 );
 
 const main = document.querySelector(".maincontent");
+const footer = document.querySelector(".sitefooter");
 
 const content = `
   <article class="backpack" id="everyday">
@@ -49,3 +50,4 @@ const content = `
 `;
 
 main.innerHTML = content;
+footer.innerHTML = content;

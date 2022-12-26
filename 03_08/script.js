@@ -23,3 +23,4 @@ const backpack = {
 
 console.log("The backpack object:", backpack);
 console.log("The pocketNum value:", backpack.pocketNum);
+// creating class templates, through which we can create our object instances.

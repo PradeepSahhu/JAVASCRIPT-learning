@@ -38,6 +38,7 @@
           You can write JavaScript directly inside an HTML document using the
           <code>script</code> element. The element can be added in the
           <code>head</code> section or inside the <code>body</code> element.
+          <code>This</code>
         </p>
       </div>
     </main>
@@ -46,8 +47,15 @@
       const allCode = document.querySelectorAll("code");
 
       for (let item of allCode) {
-        item.innerHTML = `&lt;${item.innerHTML}&gt;`;
+        item.innerHTML = `&lt;${item.innerHTML}&gt;`; // item.innerHTML inside right side.
+        // item.innerHTML = `p`;
       }
     </script>
+    <!-- <script>
+      const codes = document.querySelectorAll("code");
+      for (let item of codes) {
+        item.innerHTML = `&lt;${item.innerHTML}&gt;`;
+      }
+    </script> -->
   </body>
 </html>

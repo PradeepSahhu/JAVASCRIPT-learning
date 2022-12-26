@@ -2,7 +2,7 @@
  * Creating classes:
  *
  * Class declaration: class Name {}
- * Class expression:  const Name = class {}
+ * Class expression:  const Name = class {} // instance creation.
  */
 
 class Backpack {

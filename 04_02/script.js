@@ -15,8 +15,8 @@ const everydayPack = new Backpack(
   false,
   "December 5, 2018 15:00:00 PST"
 );
-
-const content = `
+// javascript templatel this is used to insert dynamic data into the html page.
+const content = ` 
   <main>
     <article>
       <h1>${everydayPack.name}</h1>
